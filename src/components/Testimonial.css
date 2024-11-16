@@ -1,0 +1,38 @@
+.carousel-item {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-image {
+  max-height: 150px;
+  width: auto;
+  border-radius: 50%; 
+  border: 3px solid #007bff;
+  padding: 5px;
+}
+
+.testimonial-content {
+  transition: transform 0.3s ease-in-out;
+}
+
+.testimonial-content:hover {
+  transform: scale(1.05); 
+}
+
+.testimonial-text {
+  font-style: italic; 
+  color: #555; 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  filter: brightness(0) invert(1);
+}
+
+@media (max-width: 576px) {
+  .testimonial-image {
+    max-height: 100px; 
+  }
+}

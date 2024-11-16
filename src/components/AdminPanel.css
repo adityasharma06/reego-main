@@ -1,0 +1,136 @@
+.admin-panel {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+
+  .sidebar {
+    width: 220px;
+    background-color: white;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: transform 0.3s ease;
+  }
+  
+  .sidebar h4 {
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar button {
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #007bff;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  
+  .sidebar button:hover {
+    background-color: #0056b3;
+  }
+  
+  .content-section {
+    flex-grow: 1;
+    padding: 30px;
+    background-color: #f8f9fa;
+    overflow-y: auto;
+  }
+  
+  .add-edit-form, .quote-table-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    overflow-x: auto;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  .table th, .table td {
+    white-space: nowrap; 
+    padding: 12px;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f8f9fa; 
+  }
+  
+
+  .alert {
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .alert-success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .admin-panel {
+      flex-direction: column; 
+      height: auto; 
+    }
+  
+    .sidebar {
+      width: 100%;
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+  
+    .content-section {
+      padding: 15px;
+    }
+  
+    .sidebar button {
+      margin-bottom: 15px;
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .table {
+      display: block;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .admin-panel {
+      flex-direction: column; 
+    }
+  
+    .sidebar {
+      width: 100%;
+      margin: auto;
+    }
+  
+    .content-section {
+      padding: 20px;
+    }
+  }
+  

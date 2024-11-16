@@ -1,0 +1,17 @@
+.quote-container {
+    background-color: #e9f5ff;
+    max-width: 100%; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    margin-bottom: 40px;
+}
+
+.form-control {
+    border-radius: 0.5rem; 
+}
+
+textarea {
+    resize: none; 
+}

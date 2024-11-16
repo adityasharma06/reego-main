@@ -1,0 +1,42 @@
+#product-carousel {
+  border: 1px solid #ddd; 
+  border-radius: 0.5rem; 
+  overflow: hidden; 
+}
+
+.carousel-inner img {
+  object-fit: cover; 
+}
+
+.feedbacks-section {
+  margin-top: 20px;
+  border-top: 1px solid #ddd; 
+  padding-top: 1rem;
+}
+
+
+.feedbacks-section .form-select {
+  max-width: 200px; 
+}
+
+.star.filled {
+  color: gold;
+}
+
+.star {
+  font-size: 1.5rem;
+  color: #ffc107; 
+  cursor: pointer; 
+}
+
+.star.filled {
+  color: #ffc107; 
+}
+
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+}
+

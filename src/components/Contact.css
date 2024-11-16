@@ -1,0 +1,45 @@
+.glassmorphism-footer {
+    background: rgba(0, 123, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
+  }
+  
+  .footer .text-black {
+    color: #000000;
+  }
+  
+  .footer .list-unstyled a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer .payment-icons img {
+    width: 50px;
+    margin: 0 10px;
+  }
+  
+  .social-media .d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .social-media a:hover {
+    color: #007bff;
+  }
+  
+  .social-media i {
+    margin-right: 10px;
+  }
+  
+  .me-2 {
+    margin-right: 10px;
+  }
+  

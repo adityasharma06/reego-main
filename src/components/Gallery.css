@@ -1,0 +1,20 @@
+  .img-fluid {
+    transition: all 0.5s ease;
+    box-shadow: 2px 2px 20px gray, inset 2px 2px 10px lightgray;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 4px 4px 25px black, inset 2px 2px 2px 10px rgb(0, 0, 20);
+  }
+  
+  .greeting {
+    color: lightblue;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 2px 2px 10px lightgray;
+  }
+  
+  .fa-codepen {
+    text-shadow: 2px 2px 10px lightgray;
+    font-size: 50px;
+  }
+  

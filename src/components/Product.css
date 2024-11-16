@@ -1,0 +1,162 @@
+.product-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.product-slider {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.product-image-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-img {
+  width: 100%;
+  height: auto;
+}
+
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+}
+
+.slider-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slider-button.left {
+  left: 10px;
+}
+
+.slider-button.right {
+  right: 10px;
+}
+
+.bars {
+  display: flex;
+  gap: 1rem;
+  font-size: 3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.bar {
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 5px;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.barWhite {
+  color: #fff;
+}
+
+/* Overlay Styling */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.overlay-title {
+  font-size: 1.5rem;
+}
+
+.overlay-subtitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.overlay-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.overlay-button:hover {
+  background-color: darkorange;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .slider-button {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  .overlay-title {
+    font-size: 1.2rem;
+  }
+
+  .overlay-subtitle {
+    font-size: 2rem;
+  }
+
+  .overlay-button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider-button {
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+  }
+
+  .overlay-title {
+    font-size: 1rem;
+  }
+
+  .overlay-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .overlay-button {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+}
