@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/reego-main/static/css/main.70f33e80.css",
-    "main.js": "/reego-main/static/js/main.9ad12ab9.js",
-    "static/js/453.171ddc7f.chunk.js": "/reego-main/static/js/453.171ddc7f.chunk.js",
-    "static/media/tables.png": "/reego-main/static/media/tables.45ef3146bb6684ea2665.png",
-    "static/media/chair.png": "/reego-main/static/media/chair.d288d6c0c696442b855f.png",
-    "static/media/stools.png": "/reego-main/static/media/stools.237935830cc595e17a2d.png",
-    "static/media/logo.png": "/reego-main/static/media/logo.3272bd47e08284f7086e.png",
-    "static/media/woman.png": "/reego-main/static/media/woman.b5f5d2994117daab0fa9.png",
-    "static/media/man.png": "/reego-main/static/media/man.5b6adb8e38ee506fde52.png",
-    "index.html": "/reego-main/index.html",
-    "main.70f33e80.css.map": "/reego-main/static/css/main.70f33e80.css.map",
-    "main.9ad12ab9.js.map": "/reego-main/static/js/main.9ad12ab9.js.map",
-    "453.171ddc7f.chunk.js.map": "/reego-main/static/js/453.171ddc7f.chunk.js.map"
+    "main.css": "/static/css/main.70f33e80.css",
+    "main.js": "/static/js/main.031d10d8.js",
+    "static/js/453.171ddc7f.chunk.js": "/static/js/453.171ddc7f.chunk.js",
+    "static/media/tables.png": "/static/media/tables.45ef3146bb6684ea2665.png",
+    "static/media/chair.png": "/static/media/chair.d288d6c0c696442b855f.png",
+    "static/media/stools.png": "/static/media/stools.237935830cc595e17a2d.png",
+    "static/media/logo.png": "/static/media/logo.3272bd47e08284f7086e.png",
+    "static/media/woman.png": "/static/media/woman.b5f5d2994117daab0fa9.png",
+    "static/media/man.png": "/static/media/man.5b6adb8e38ee506fde52.png",
+    "index.html": "/index.html",
+    "main.70f33e80.css.map": "/static/css/main.70f33e80.css.map",
+    "main.031d10d8.js.map": "/static/js/main.031d10d8.js.map",
+    "453.171ddc7f.chunk.js.map": "/static/js/453.171ddc7f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70f33e80.css",
-    "static/js/main.9ad12ab9.js"
+    "static/js/main.031d10d8.js"
   ]
 }
