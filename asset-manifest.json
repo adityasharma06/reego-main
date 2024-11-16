@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reego-main/static/css/main.70f33e80.css",
-    "main.js": "/reego-main/static/js/main.900c9035.js",
+    "main.js": "/reego-main/static/js/main.5d4b0539.js",
     "static/js/453.171ddc7f.chunk.js": "/reego-main/static/js/453.171ddc7f.chunk.js",
     "static/media/tables.png": "/reego-main/static/media/tables.45ef3146bb6684ea2665.png",
     "static/media/chair.png": "/reego-main/static/media/chair.d288d6c0c696442b855f.png",
@@ -11,11 +11,11 @@
     "static/media/man.png": "/reego-main/static/media/man.5b6adb8e38ee506fde52.png",
     "index.html": "/reego-main/index.html",
     "main.70f33e80.css.map": "/reego-main/static/css/main.70f33e80.css.map",
-    "main.900c9035.js.map": "/reego-main/static/js/main.900c9035.js.map",
+    "main.5d4b0539.js.map": "/reego-main/static/js/main.5d4b0539.js.map",
     "453.171ddc7f.chunk.js.map": "/reego-main/static/js/453.171ddc7f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70f33e80.css",
-    "static/js/main.900c9035.js"
+    "static/js/main.5d4b0539.js"
   ]
 }
