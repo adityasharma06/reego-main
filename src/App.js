@@ -24,7 +24,7 @@ function App() {
     <div className="App">
        <Router basename="/reego-main">
         <NavbarComponent />
-                <Routes>
+        <Routes>
           <Route
             path="/"
             element={
