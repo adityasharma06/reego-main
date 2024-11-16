@@ -54,10 +54,7 @@ function App() {
           <Route path="/Chairs" element={<Chairs/>} />
           <Route path="/Sets" element={<Sets/>} />
           <Route path="/Tables" element={<Tables/>} />
-          
-          
           <Route path="/login" element={<Login />} />
-
           <Route
             path="/admin"
             element={

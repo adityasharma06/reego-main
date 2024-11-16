@@ -2,43 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Redirecting...</title>
+    <title>Single Page Apps for GitHub Pages</title>
     <script type="text/javascript">
-      (function () {
-        // Base path of your GitHub Pages deployment
-        var basePath = '/reego-main';
 
-        // Check if the path is already prefixed with a hash
-        if (window.location.hash.startsWith('#/')) {
-          // Already redirected, do nothing
-          return;
-        }
+      var pathSegmentsToKeep = 0;
 
-        // Get the current location
-        var l = window.location;
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
 
-        // Strip the base path and construct the new URL for React Router
-        var newPath = l.pathname.substring(basePath.length);
-        var newUrl =
-          l.protocol +
-          '//' +
-          l.host +
-          basePath +
-          '/#' +
-          newPath +
-          l.search +
-          l.hash;
-
-        // Redirect to the new URL
-        window.location.replace(newUrl);
-      })();
     </script>
   </head>
   <body>
-    <h1>Redirecting...</h1>
-    <p>
-      If you are not redirected automatically, please click
-      <a href="/reego-main/">here</a>.
-    </p>
   </body>
 </html>
