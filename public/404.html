@@ -2,21 +2,39 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Single Page Apps for GitHub Pages</title>
+    <title>Redirecting...</title>
     <script type="text/javascript">
-       var pathSegmentsToKeep = 1;
+      (function () {
+        // The name of your GitHub Pages subdirectory
+        var basePath = '/reego-main';
 
-      var l = window.location;
-      l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-      );
+        // Current location details
+        var l = window.location;
 
+        // If the URL does not include the basePath, do nothing
+        if (!l.pathname.startsWith(basePath)) {
+          return;
+        }
+
+        // Strip the basePath and redirect to the React app with a hash-based route
+        var redirectPath = l.pathname.replace(basePath, '');
+        var newUrl =
+          l.protocol +
+          '//' +
+          l.host +
+          basePath +
+          '/#' +
+          redirectPath +
+          l.search +
+          l.hash;
+
+        // Redirect to the correct path
+        window.location.replace(newUrl);
+      })();
     </script>
   </head>
   <body>
+    <h1>Redirecting...</h1>
+    <p>If you are not redirected automatically, <a href="/reego-main/">click here</a>.</p>
   </body>
 </html>
