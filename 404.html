@@ -5,18 +5,19 @@
     <title>Redirecting...</title>
     <script type="text/javascript">
       (function () {
-        // Base path of the GitHub Pages deployment
+        // Base path of your GitHub Pages deployment
         var basePath = '/reego-main';
+
+        // Check if the path is already prefixed with a hash
+        if (window.location.hash.startsWith('#/')) {
+          // Already redirected, do nothing
+          return;
+        }
 
         // Get the current location
         var l = window.location;
 
-        // If the path does not already start with the base path, do nothing
-        if (!l.pathname.startsWith(basePath)) {
-          return;
-        }
-
-        // Strip the basePath and construct the new URL for React Router
+        // Strip the base path and construct the new URL for React Router
         var newPath = l.pathname.substring(basePath.length);
         var newUrl =
           l.protocol +
@@ -28,7 +29,7 @@
           l.search +
           l.hash;
 
-        // Redirect to the correct URL
+        // Redirect to the new URL
         window.location.replace(newUrl);
       })();
     </script>
