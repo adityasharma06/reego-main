@@ -5,36 +5,39 @@
     <title>Redirecting...</title>
     <script type="text/javascript">
       (function () {
-        // The name of your GitHub Pages subdirectory
+        // Base path of the GitHub Pages deployment
         var basePath = '/reego-main';
 
-        // Current location details
+        // Get the current location
         var l = window.location;
 
-        // If the URL does not include the basePath, do nothing
+        // If the path does not already start with the base path, do nothing
         if (!l.pathname.startsWith(basePath)) {
           return;
         }
 
-        // Strip the basePath and redirect to the React app with a hash-based route
-        var redirectPath = l.pathname.replace(basePath, '');
+        // Strip the basePath and construct the new URL for React Router
+        var newPath = l.pathname.substring(basePath.length);
         var newUrl =
           l.protocol +
           '//' +
           l.host +
           basePath +
           '/#' +
-          redirectPath +
+          newPath +
           l.search +
           l.hash;
 
-        // Redirect to the correct path
+        // Redirect to the correct URL
         window.location.replace(newUrl);
       })();
     </script>
   </head>
   <body>
     <h1>Redirecting...</h1>
-    <p>If you are not redirected automatically, <a href="/reego-main/">click here</a>.</p>
+    <p>
+      If you are not redirected automatically, please click
+      <a href="/reego-main/">here</a>.
+    </p>
   </body>
 </html>
