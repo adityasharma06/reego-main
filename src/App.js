@@ -24,8 +24,17 @@ function App() {
     <div className="App">
        <Router>
         <NavbarComponent />
+        <Container fluid className="main-content">
+                <Home />
+                {/* <About /> */}
+                <Product />
+                <ProductCategory/>
+                <MoreProducts />
+                <Testimonial />
+                <GetQuote />
+                <Contact />
+              </Container>
         <Routes>
-          
           <Route
             path="/"
             element={
