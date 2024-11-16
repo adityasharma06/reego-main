@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashRouter } from 'react-router-dom';
 import NavbarComponent from './components/NavbarComponent';
 import Home from './components/Home';
 import About from './components/About';
@@ -21,8 +22,8 @@ import Sets from './components/Sets';
 
 function App() {
   return (
-    <div className="App">
-       <Router basename="/reego-main">
+    <>
+       <HashRouter>
         <NavbarComponent />
         <Routes>
           <Route
@@ -64,9 +65,8 @@ function App() {
             }
           />
         </Routes>
-      </Router>
-    </div>
+      </HashRouter>
+    </>
   );
 }
-
 export default App;
