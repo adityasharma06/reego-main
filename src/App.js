@@ -22,7 +22,7 @@ import Sets from './components/Sets';
 function App() {
   return (
     <div className="App">
-       <Router basename='/reego-main'>
+       <Router basename="/reego-main">
         <NavbarComponent />
                 <Routes>
           <Route
