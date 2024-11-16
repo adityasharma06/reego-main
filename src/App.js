@@ -23,7 +23,6 @@ import Sets from './components/Sets';
 function App() {
   return (
     <>
-    <CurrencyContext.Provider value={currency}>
        <Router basename={process.env.PUBLIC_URL}>
         <NavbarComponent />
         <Routes>
@@ -67,7 +66,6 @@ function App() {
           />
         </Routes>
       </Router>
-      </CurrencyContext.Provider>
     </>
   );
 }
