@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 import NavbarComponent from './components/NavbarComponent';
 import Home from './components/Home';
 import About from './components/About';
@@ -23,7 +23,7 @@ import Sets from './components/Sets';
 function App() {
   return (
     <>
-       <HashRouter>
+       <BrowserRouter basename = "/reego-main">
         <NavbarComponent />
         <Routes>
           <Route
@@ -65,7 +65,7 @@ function App() {
             }
           />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 }
