@@ -23,7 +23,8 @@ import Sets from './components/Sets';
 function App() {
   return (
     <>
-       <BrowserRouter basename = "/reego-main">
+    <CurrencyContext.Provider value={currency}>
+       <Router basename={process.env.PUBLIC_URL}>
         <NavbarComponent />
         <Routes>
           <Route
@@ -65,7 +66,8 @@ function App() {
             }
           />
         </Routes>
-      </BrowserRouter>
+      </Router>
+      </CurrencyContext.Provider>
     </>
   );
 }
