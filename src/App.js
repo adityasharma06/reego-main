@@ -23,7 +23,7 @@ import Sets from './components/Sets';
 function App() {
   return (
     <>
-       <Router >
+       <Router basename={process.env.PUBLIC_URL}>
         <NavbarComponent />
         <Routes>
           <Route
