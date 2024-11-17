@@ -37,7 +37,12 @@ function App() {
             </Container>
           }
         />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={
+      <Container fluid className="contact-contents">
+          <GetQuote />
+          <Contact />
+      </Container>
+          } />
         <Route path="/about" element={<About />} />
         <Route path="/moreproducts" element={<MoreProducts />} />
         <Route path="/product/:id" element={<ProductDetails />} />
