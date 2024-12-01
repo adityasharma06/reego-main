@@ -47,7 +47,7 @@ export default function Product() {
         </button>
 
         <div className="overlay">
-          <p className="overlay-title">Best Of 2022</p>
+          <p className="overlay-title">Best Of 2023</p>
           <h2 className="overlay-subtitle">PREMIUM CHAIR QUALITY</h2>
           <button className="overlay-button" onClick={handleViewMoreClick}>
             Know More
