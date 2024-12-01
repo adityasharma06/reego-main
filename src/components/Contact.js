@@ -19,12 +19,14 @@ const Contact = () => {
             </ul>
           </div>
 
+
           {/* Contact Section */}
           <div className="col-md-3 mb-4">
             <h5 className="text-black">Contact</h5>
             <address className="text-black">
-              Dr. Ingles Cancer Laparoscopy Clinic & Surgical Hospital, <br />
-              Jalgaon HO, Jalgaon, Maharashtra, 425001
+            K J PLAST ADDITIONAL MIDC C-16, <br />
+            JALGAON PIN 425001<br />
+            MAHARASHTRA
             </address>
             <p className="text-black mb-0">Phone: +91-9823441662</p>
           </div>
