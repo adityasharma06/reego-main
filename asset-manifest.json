@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/reego-main/static/css/main.70f33e80.css",
-    "main.js": "/reego-main/static/js/main.30a718a4.js",
+    "main.css": "/reego-main/static/css/main.da555850.css",
+    "main.js": "/reego-main/static/js/main.8d1ec761.js",
     "static/js/453.8644a9c4.chunk.js": "/reego-main/static/js/453.8644a9c4.chunk.js",
     "static/media/image4.jpg": "/reego-main/static/media/image4.ca85586b4f00da659e1d.jpg",
-    "static/media/stools.jpg": "/reego-main/static/media/stools.6b48f33ea73298887139.jpg",
     "static/media/image1.jpg": "/reego-main/static/media/image1.00f2220c7f265caa6405.jpg",
     "static/media/image6.jpg": "/reego-main/static/media/image6.734ce6ef14e8e35d45a4.jpg",
     "static/media/image5.jpg": "/reego-main/static/media/image5.e74aa4c6aa39a63ad9e1.jpg",
-    "static/media/chair.jpg": "/reego-main/static/media/chair.715896913cb67896d945.jpg",
-    "static/media/tables.jpg": "/reego-main/static/media/tables.6ea5a1d2d72fd07ab3df.jpg",
     "static/media/image3.jpg": "/reego-main/static/media/image3.6a5b26098bb86b233b9f.jpg",
     "static/media/image2.jpg": "/reego-main/static/media/image2.bd7740d7782c0ed83ef5.jpg",
+    "static/media/table.jpg": "/reego-main/static/media/table.aba77620563a7d899583.jpg",
+    "static/media/chair.jpg": "/reego-main/static/media/chair.86113e269939ff0e229c.jpg",
+    "static/media/stools.jpg": "/reego-main/static/media/stools.4dd0206469c1d37385ca.jpg",
     "static/media/logo.png": "/reego-main/static/media/logo.3272bd47e08284f7086e.png",
     "static/media/woman.png": "/reego-main/static/media/woman.b5f5d2994117daab0fa9.png",
     "static/media/man.png": "/reego-main/static/media/man.5b6adb8e38ee506fde52.png",
     "index.html": "/reego-main/index.html",
-    "main.70f33e80.css.map": "/reego-main/static/css/main.70f33e80.css.map",
-    "main.30a718a4.js.map": "/reego-main/static/js/main.30a718a4.js.map",
+    "main.da555850.css.map": "/reego-main/static/css/main.da555850.css.map",
+    "main.8d1ec761.js.map": "/reego-main/static/js/main.8d1ec761.js.map",
     "453.8644a9c4.chunk.js.map": "/reego-main/static/js/453.8644a9c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70f33e80.css",
-    "static/js/main.30a718a4.js"
+    "static/css/main.da555850.css",
+    "static/js/main.8d1ec761.js"
   ]
 }
