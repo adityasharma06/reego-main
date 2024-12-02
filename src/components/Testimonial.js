@@ -7,23 +7,23 @@ import './Testimonial.css';
 const testimonials = [
   {
     id: 1,
-    text: "This chair is amazing! It changed the way I work.",
-    author: "Person 1",
-    position: "CEO, Company A",
-    image: man,
+    text: "I recently purchased a set of molded plastic chairs for my dining area, and I couldn't be happier! They're lightweight yet incredibly sturdy, making them perfect for both indoor and outdoor use. The modern design adds a stylish touch to my space, and cleaning them is a breeze. Highly recommend for anyone looking for affordable and functional furniture!",
+    author: "Priya K",
+    position: "Pune",
+    image: woman,
   },
   {
     id: 2,
-    text: "Very comfortable and stylish. Highly recommended.",
-    author: "Person 2",
-    position: "Designer, Company B",
+    text: "These molded plastic chairs exceeded my expectations! We bought them for our office breakout area, and they've been a hit with the team. The vibrant colors and comfortable seating are just what we needed to create a lively atmosphere. Plus, they’ve held up well even with daily use. Great value for money!",
+    author: " MR. Rahul Deokar",
+    position: "Mumbai",
     image: man,
   },
   {
     id: 3,
-    text: "Exceptional quality and excellent customer service.",
-    author: "Person 3",
-    position: "Manager, Company C",
+    text: "Despite being lightweight, they're very durable and don't wobble. I’ve already recommended them to my neighbors.",
+    author: "Sunita Khandelwal",
+    position: "Nagpur",
     image: woman,
   },
 ];

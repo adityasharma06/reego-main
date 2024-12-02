@@ -1,8 +1,8 @@
 import React from "react";
 import "./ProductCategory.css";
-import chair from '../images/chair.jpg'
-import Tables from '../images/table.jpeg'
-import Stools from '../images/stools.jpg'
+import chair from '../images/Chair.jpg'
+import Tables from '../images/Tables.jpg'
+import Stools from '../images/Stool.jpg'
 
 const ProductCategory = () => {
   return (
