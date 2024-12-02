@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProductCategory.css";
 import chair from '../images/chair.jpg'
-import Tables from '../images/table.jpg'
+import Tables from '../images/table.jpeg'
 import Stools from '../images/stools.jpg'
 
 const ProductCategory = () => {

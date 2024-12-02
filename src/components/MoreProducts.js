@@ -57,7 +57,7 @@ const MoreProducts = () => {
 
   return (
     <Container className="mt-4" id="moreproducts">
-      <h1>Our Products</h1>
+      <h1> <b>  Our Products </b> </h1>
       {categories.map((category) => (
         <div key={category} className="mb-5">
           <h2>{category}</h2>
