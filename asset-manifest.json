@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/reego-main/static/css/main.da555850.css",
-    "main.js": "/reego-main/static/js/main.1d9c6000.js",
-    "static/js/453.8644a9c4.chunk.js": "/reego-main/static/js/453.8644a9c4.chunk.js",
-    "static/media/image4.jpg": "/reego-main/static/media/image4.ca85586b4f00da659e1d.jpg",
-    "static/media/image1.jpg": "/reego-main/static/media/image1.00f2220c7f265caa6405.jpg",
-    "static/media/image6.jpg": "/reego-main/static/media/image6.734ce6ef14e8e35d45a4.jpg",
-    "static/media/image5.jpg": "/reego-main/static/media/image5.e74aa4c6aa39a63ad9e1.jpg",
-    "static/media/image3.jpg": "/reego-main/static/media/image3.6a5b26098bb86b233b9f.jpg",
-    "static/media/image2.jpg": "/reego-main/static/media/image2.bd7740d7782c0ed83ef5.jpg",
-    "static/media/Chair.jpg": "/reego-main/static/media/Chair.59bf80fbe5d30d1bcdfe.jpg",
-    "static/media/Tables.jpg": "/reego-main/static/media/Tables.84cfd773003bab47361c.jpg",
-    "static/media/Stool.jpg": "/reego-main/static/media/Stool.9d09c8b2ed1f57174dcc.jpg",
-    "static/media/logo.png": "/reego-main/static/media/logo.3272bd47e08284f7086e.png",
-    "static/media/woman.png": "/reego-main/static/media/woman.b5f5d2994117daab0fa9.png",
-    "static/media/man.png": "/reego-main/static/media/man.5b6adb8e38ee506fde52.png",
-    "index.html": "/reego-main/index.html",
-    "main.da555850.css.map": "/reego-main/static/css/main.da555850.css.map",
-    "main.1d9c6000.js.map": "/reego-main/static/js/main.1d9c6000.js.map",
-    "453.8644a9c4.chunk.js.map": "/reego-main/static/js/453.8644a9c4.chunk.js.map"
+    "main.css": "/static/css/main.da555850.css",
+    "main.js": "/static/js/main.973afb35.js",
+    "static/js/453.8644a9c4.chunk.js": "/static/js/453.8644a9c4.chunk.js",
+    "static/media/image4.jpg": "/static/media/image4.ca85586b4f00da659e1d.jpg",
+    "static/media/image1.jpg": "/static/media/image1.00f2220c7f265caa6405.jpg",
+    "static/media/image6.jpg": "/static/media/image6.734ce6ef14e8e35d45a4.jpg",
+    "static/media/image5.jpg": "/static/media/image5.e74aa4c6aa39a63ad9e1.jpg",
+    "static/media/image3.jpg": "/static/media/image3.6a5b26098bb86b233b9f.jpg",
+    "static/media/image2.jpg": "/static/media/image2.bd7740d7782c0ed83ef5.jpg",
+    "static/media/Chair.jpg": "/static/media/Chair.59bf80fbe5d30d1bcdfe.jpg",
+    "static/media/Tables.jpg": "/static/media/Tables.84cfd773003bab47361c.jpg",
+    "static/media/Stool.jpg": "/static/media/Stool.9d09c8b2ed1f57174dcc.jpg",
+    "static/media/logo.png": "/static/media/logo.3272bd47e08284f7086e.png",
+    "static/media/woman.png": "/static/media/woman.b5f5d2994117daab0fa9.png",
+    "static/media/man.png": "/static/media/man.5b6adb8e38ee506fde52.png",
+    "index.html": "/index.html",
+    "main.da555850.css.map": "/static/css/main.da555850.css.map",
+    "main.973afb35.js.map": "/static/js/main.973afb35.js.map",
+    "453.8644a9c4.chunk.js.map": "/static/js/453.8644a9c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da555850.css",
-    "static/js/main.1d9c6000.js"
+    "static/js/main.973afb35.js"
   ]
 }
