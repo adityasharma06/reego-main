@@ -36,7 +36,7 @@
   
   /* Category-specific styles */
   .category.chairs {
-    border-color: orange;
+    border-color: rgb(81, 13, 13);
   }
   
   .category.tables {
@@ -44,18 +44,7 @@
   }
   
   .category.stools {
-    border-color: green;
+    border-color: orange;
   }
   
-  .category-title.chairs {
-    color: orange;
-  }
-  
-  .category-title.tables {
-    color: brown;
-  }
-  
-  .category-title.stools {
-    color: green;
-  }
   

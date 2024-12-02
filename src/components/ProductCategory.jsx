@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProductCategory.css";
 import chair from '../images/chair.jpg'
-import Tables from '../images/tables.jpg'
+import Tables from '../images/table.jpg'
 import Stools from '../images/stools.jpg'
 
 const ProductCategory = () => {
@@ -13,7 +13,6 @@ const ProductCategory = () => {
           alt="Chairs"
           className="category-image"
         />
-        <h3 className="category-title chairs">CHAIRS</h3>
       </div>
 
       <div className="category tables">
@@ -22,7 +21,6 @@ const ProductCategory = () => {
           alt="Tables"
           className="category-image"
         />
-        <h3 className="category-title tables">TABLES</h3>
       </div>
 
       <div className="category stools">
@@ -31,7 +29,6 @@ const ProductCategory = () => {
           alt="Stools"
           className="category-image"
         />
-        <h3 className="category-title stools">STOOLS</h3>
       </div>
     </div>
   );
