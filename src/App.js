@@ -20,7 +20,7 @@ import { Container } from 'react-bootstrap';
 
 function App() {
   return (
-    <Router basename="/reego-main">
+    <Router basename="/">
       <NavbarComponent />
       <Routes>
         <Route
